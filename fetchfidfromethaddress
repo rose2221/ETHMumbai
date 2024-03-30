@@ -1,0 +1,9 @@
+require('dotenv').config(); 
+const sdk = require('api')('@neynar/v2.0#79zo2aluds8jrx');
+const apiKey = process.env.API_KEY;
+sdk.userBulkByAddress({
+  addresses: '0x2B626fCDD6b0756c90553D5b2D1E55d9709E9Feb',
+  api_key: apiKey
+})
+  .then(({ data }) => console.log(data))
+  .catch(err => console.error(err));
