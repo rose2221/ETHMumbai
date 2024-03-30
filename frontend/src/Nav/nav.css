@@ -1,0 +1,45 @@
+:root{
+    font-family: "Sora", sans-serif;
+}
+
+.nav__links{
+    color:white;
+}
+
+.connect__button{
+    width:  131px;
+    height: 32px;
+    padding: 18px, 16px, 18px, 16px;
+    border-radius: 9px;
+    border: 0.25px;
+    gap: 10px;
+    color:#191235;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.navbar{
+    border-bottom: 0.25px solid transparent; 
+    border-image: linear-gradient(to right, transparent 0%, #4f46e5 40%, #4f46e5 60%, transparent 100%);
+    border-image-slice: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 750px ;
+}
+.links2{
+    justify-content: space-around;
+    margin-left: -160px ;
+    width: 30px;
+    height: 30px;
+
+}
+
+.logo__container{
+    min-width: 200px;
+}
