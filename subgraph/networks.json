@@ -1,0 +1,8 @@
+{
+  "sepolia": {
+    "FarcasterPoints": {
+      "address": "0x604cdE80e392f2212c7E193756966080C38d9C86",
+      "startBlock": 0
+    }
+  }
+}

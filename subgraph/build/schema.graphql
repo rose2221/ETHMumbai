@@ -1,0 +1,26 @@
+type channelAdded @entity(immutable: true) {
+  id: Bytes!
+  user: Bytes! # address
+  channelId: String! # string
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type newUserAdded @entity(immutable: true) {
+  id: Bytes!
+  user: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type pointsUpdated @entity(immutable: true) {
+  id: Bytes!
+  user: Bytes! # address
+  channelId: [String!]! # string[]
+  points: [BigInt!]! # uint256[]
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}

@@ -1,0 +1,32 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: FarcasterPoints
+    network: sepolia
+    source:
+      address: "0x604cdE80e392f2212c7E193756966080C38d9C86"
+      abi: FarcasterPoints
+      startBlock: 0
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - channelAdded
+        - newUserAdded
+        - pointsUpdated
+      abis:
+        - name: FarcasterPoints
+          file: ./abis/FarcasterPoints.json
+      eventHandlers:
+        - event: channelAdded(address,string)
+          handler: handlechannelAdded
+        - event: newUserAdded(address)
+          handler: handlenewUserAdded
+        - event: pointsUpdated(address,string[],uint256[])
+          handler: handlepointsUpdated
+      file: ./src/farcaster-points.ts
