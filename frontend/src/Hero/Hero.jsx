@@ -100,6 +100,43 @@ function Hero() {
         <div className="grid__background"></div>
         <div className="grid__background"></div>
         <div className="grid__background"></div>
+
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+         <div className="grid__background"></div>
+        
+        
+        
+        
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
+        <div className="grid__background"></div>
         <div className="grid__background"></div>
         <div className="grid__background"></div>
         <div className="grid__background"></div>
