@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-contract FarcasterPoints {
+contract PointCaster {
     address[] public users;
     mapping(string => uint256) public totalChannelPoints;
     mapping(address => string[]) public channels;
