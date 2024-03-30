@@ -1,0 +1,25 @@
+import ApolloClient, { gql } from 'apollo-boost';
+
+// Create an instance of ApolloClient
+const client = new ApolloClient({
+  uri: 'https://api.thegraph.com/subgraphs/name/[username]/[subgraph-name]',
+});
+
+// Define your GraphQL query
+const GET_POINTS_UPDATED = gql`
+  {
+    pointsUpdateds {
+      user
+      channelId
+      points
+    }
+  }
+`;
+
+// Use the client to send the query
+client
+  .query({
+    query: GET_POINTS_UPDATED,
+  })
+  .then(result => console.log(result.data))
+  .catch(error => console.error(error));
