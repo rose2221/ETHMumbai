@@ -1,0 +1,28 @@
+# File: FarcasterPointsQueries.graphql
+
+# Query for fetching pointsUpdated events
+{
+  pointsUpdateds {
+    id
+    user
+    channelId
+    points
+  }
+}
+
+# Query for fetching channelAdded events
+{
+  channelAddeds {
+    id
+    user
+    channelId
+  }
+}
+
+# Query for fetching newUserAdded events
+{
+  newUserAddeds {
+    id
+    user
+  }
+}
