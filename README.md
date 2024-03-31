@@ -1,5 +1,7 @@
 # PointCaster 
+![asset](https://github.com/rose2221/ETHMumbai/assets/107622640/6f9f2f09-0116-4971-b27f-4cf3b311628f)
 
+<br>
 Points are the craze this cycle. Points provide incentives for users to try out new protocols and accrue loyalty rewards in the face of airdrops, reputation scores, access to exclusive products, or retro-PGF grants. Building this points infrastructure on-chain is very important to ensure that your early contributions to a protocol are not unfairly distributed or revoked due to opaque calculations and management.
 
 These point systems are very active in DeFi protocols like Ethena, Etherfi, EigeLayer, etc., but staking/restaking is not the only way to provide value to a protocol.
